@@ -40,4 +40,4 @@ function Board({ data }) {
     </Grid>
   );
 }
-export default Board;
+export default memo(Board);
